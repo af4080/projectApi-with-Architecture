@@ -1,0 +1,6 @@
+@projectApiAngular_HostAddress = http://localhost:5125
+
+GET {{projectApiAngular_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
