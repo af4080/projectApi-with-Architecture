@@ -8,9 +8,27 @@ using projectApiAngular.Middleware;
 using projectApiAngular.Repositories;
 using projectApiAngular.Services;
 using Serilog;
+using StackExchange.Redis;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.Configure<RedisSettings>(builder.Configuration.GetSection("Redis"));
+// 1. נסי לקחת מהכתובת המלאה ב-Environment, אם אין - קחי מהמבנה ההיררכי, אם אין - ברירת מחדל
+var redisConnectionString = builder.Configuration["Redis__ConnectionString"] 
+                         ?? builder.Configuration["Redis:ConnectionString"] 
+                         ?? "redis:6379,password=Your_Redis_Password_123";
+
+// 2. עדכון הרישום של ה-Redis עם הגדרות עמידות
+builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
+{
+    var configuration = ConfigurationOptions.Parse(redisConnectionString, true);
+    configuration.AbortOnConnectFail = false; // חשוב מאוד! מונע קריסה אם החיבור איטי
+    return ConnectionMultiplexer.Connect(configuration);
+});
+
+builder.Services.AddSingleton<IRedisCacheService, RedisCacheService>();
 //add cors
 builder.Services.AddCors(options =>
 {
@@ -164,6 +182,12 @@ app.UseAuthorization();
 app.UseStaticFiles();
 
 app.MapControllers();
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<Chinese_SalesDbContext>(); // תחליף בשם ה-Context שלך
+    context.Database.EnsureCreated(); 
+}
 
 app.Run();
 public partial class Program { }

@@ -1,4 +1,6 @@
 ﻿
+using Microsoft.Extensions.Options;
+using projectApiAngular.Configurations;
 using projectApiAngular.DTO;
 using projectApiAngular.Models;
 using projectApiAngular.Repositories;
@@ -8,13 +10,24 @@ namespace projectApiAngular.Services
 {
     public class GiftService : IGiftService
     {
-        private readonly IGiftRepository _repository;
-        private readonly ILogger<GiftService> _logger;  
+        private const string GiftListCacheKey = "gifts:all";
 
-        public GiftService(IGiftRepository repository,ILogger<GiftService> logger)
+        private readonly IGiftRepository _repository;
+        private readonly ILogger<GiftService> _logger;
+        private readonly IRedisCacheService _cacheService;
+        private readonly TimeSpan _giftListCacheTtl;
+
+        public GiftService(
+            IGiftRepository repository,
+            ILogger<GiftService> logger,
+            IRedisCacheService cacheService,
+            IOptions<RedisSettings> redisSettings)
         {
             _repository = repository;
             _logger = logger;
+            _cacheService = cacheService;
+            var ttlSeconds = redisSettings.Value.GiftCacheTtlSeconds;
+            _giftListCacheTtl = TimeSpan.FromSeconds(ttlSeconds > 0 ? ttlSeconds : 60);
         }
 
         private static ReadGiftDto MapToReadDto(Gift g)
@@ -37,11 +50,19 @@ namespace projectApiAngular.Services
         //get
         public async Task<IEnumerable<ReadGiftDto>> GetAllGifts()
         {
-            var gifts = await _repository.GetAllGifts();
-            var dtos = gifts.Select(d => MapToReadDto(d));
-            _logger.LogInformation("Retrieved {Count} gifts from the repository.", dtos.Count());
-            return dtos;
+            var cachedGifts = await _cacheService.GetAsync<List<ReadGiftDto>>(GiftListCacheKey);
+            if (cachedGifts != null && cachedGifts.Count > 0)
+            {
+                _logger.LogInformation("Returned {Count} gifts from Redis cache.", cachedGifts.Count);
+                return cachedGifts;
+            }
 
+            var gifts = await _repository.GetAllGifts();
+            var dtos = gifts.Select(d => MapToReadDto(d)).ToList();
+
+            await _cacheService.SetAsync(GiftListCacheKey, dtos, _giftListCacheTtl);
+            _logger.LogInformation("Cached {Count} gifts in Redis for {TtlSeconds} seconds.", dtos.Count, _giftListCacheTtl.TotalSeconds);
+            return dtos;
         }
 
         //get by name
@@ -83,6 +104,7 @@ namespace projectApiAngular.Services
             };
 
             var createdGift = await _repository.AddGift(entity);
+            await _cacheService.RemoveAsync(GiftListCacheKey);
             _logger.LogInformation("Successfully added gift: {GiftName} with ID: {GiftId} to the repository.", createdGift.Name, createdGift.Id);
 
             return MapToReadDto(createdGift);
@@ -121,6 +143,8 @@ namespace projectApiAngular.Services
             var updated = await _repository.UpdateGift(existingGift);
             if (updated == null)
                 return null;
+
+            await _cacheService.RemoveAsync(GiftListCacheKey);
             _logger.LogInformation("Successfully updated gift: {GiftName} in the repository.", updated.Name);
             return MapToReadDto(updated);
 
@@ -133,6 +157,8 @@ namespace projectApiAngular.Services
             _logger.LogWarning("Deleting gift with ID: {GiftId} from the repository.", id);
             var del = await _repository.DeleteGift(id);
             if (del == null) return null;
+
+            await _cacheService.RemoveAsync(GiftListCacheKey);
             _logger.LogWarning("Successfully deleted gift: {GiftName} with ID: {GiftId} from the repository.", del.Name, del.Id);
             return MapToReadDto(del);
 
