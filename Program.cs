@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -10,6 +11,7 @@ using projectApiAngular.Services;
 using Serilog;
 using StackExchange.Redis;
 using System.Text;
+using System.Threading.RateLimiting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -68,6 +70,23 @@ builder.Services.AddSwaggerGen(options =>
             },
             new string[] {}
         }
+    });
+});
+
+builder.Services.AddRateLimiter(options =>
+{
+    options.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
+
+    options.AddPolicy("SpecificPolicy", context =>
+    {
+        return RateLimitPartition.GetSlidingWindowLimiter(context.Connection.RemoteIpAddress?.ToString() ?? "unknown", _ => new SlidingWindowRateLimiterOptions
+        {
+            PermitLimit = 100,
+            Window = TimeSpan.FromMinutes(1),
+            SegmentsPerWindow = 8,
+            QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
+            QueueLimit = 0
+        });
     });
 });
 
@@ -172,6 +191,8 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowLocalhost");
 
 app.UseRouting();
+
+app.UseRateLimiter();
 
 app.UseAuthentication();
 
