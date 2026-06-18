@@ -1,0 +1,39 @@
+﻿version: '3.8'
+
+services:
+ db:
+ image: mcr.microsoft.com/mssql/server:2019-latest
+ environment:
+ SA_PASSWORD: "Your_password123"
+ ACCEPT_EULA: "Y"
+ ports:
+ - "1433:1433"
+ volumes:
+ - mssql_data:/var/opt/mssql
+ healthcheck:
+ test: ["CMD-SHELL", " /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P $${SA_PASSWORD} -Q 'SELECT1' || exit1"]
+ interval:10s
+ timeout:5s
+ retries:10
+
+ app:
+ build:
+ context: .
+ dockerfile: Dockerfile
+ depends_on:
+ db:
+ condition: service_healthy
+ ports:
+ - "8080:8080"
+ - "8081:8081"
+ environment:
+ - ASPNETCORE_ENVIRONMENT=Development
+ - ConnectionStrings__DefaultConnection=Server=db,1433;Database=Chinese_Sale;User Id=sa;Password=Your_password123;TrustServerCertificate=True;
+ - jwtSettings__SecretKey=ChineseSaleApiSecretKeyBtAvigail
+ - jwtSettings__Issuer=ChineseSale
+ - jwtSettings__Audience=ChineseSaleApiClient
+ - jwtSettings__ExpiryMinutes=60
+ restart: unless-stopped
+
+volumes:
+ mssql_data: {}

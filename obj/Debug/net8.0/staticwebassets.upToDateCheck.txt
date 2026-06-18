@@ -1,0 +1,37 @@
+wwwroot\images\AirConditioner.jpg
+wwwroot\images\Bed.jpg
+wwwroot\images\fly.jpg
+wwwroot\images\frezzer.jpg
+wwwroot\images\gorgi.jpg
+wwwroot\images\Mortgage.jpg
+wwwroot\images\prag.jpg
+wwwroot\images\Renovation.jpg
+wwwroot\images\Sabbath.jpg
+wwwroot\images\Sleep.jpg
+wwwroot\images\tora.jpg
+wwwroot\images\vehicle.jpg
+wwwroot\images\view.jpg
+wwwroot\images\אושר עד.jpg
+wwwroot\images\אצולת אירופה.jpg
+wwwroot\images\גינה מהחלומות.jpg
+wwwroot\images\גלי צאנז.jpg
+wwwroot\images\דלק לשנה.jpg
+wwwroot\images\הגשמת-חלום.jpg
+wwwroot\images\הוצאות שבת.jpg
+wwwroot\images\הפתעה.jpg
+wwwroot\images\הצורפים.jpg
+wwwroot\images\חדר שינה.jpg
+wwwroot\images\חופשה משפחתית.jpg
+wwwroot\images\טיסה לאירופה.jpg
+wwwroot\images\טקסטיל.jpg
+wwwroot\images\להקל-על-החיים.jpg
+wwwroot\images\לחשבון הבנק.jpg
+wwwroot\images\מחשב.jpg
+wwwroot\images\מטבח.jpg
+wwwroot\images\מנקה לשנה.jpg
+wwwroot\images\מערכת ישיבה.jpg
+wwwroot\images\מרכז השולחן והכיסא.jpg
+wwwroot\images\סיטי קאר.jpg
+wwwroot\images\ספריה יוקרתית.jpg
+wwwroot\images\ריענון לבית.jpg
+wwwroot\images\שס.jpg

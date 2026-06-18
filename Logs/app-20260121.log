@@ -1,0 +1,36 @@
+2026-01-21 21:19:16.991 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-21 21:19:17.265 +02:00 [INF] Now listening on: https://localhost:7097
+2026-01-21 21:19:17.265 +02:00 [INF] Now listening on: http://localhost:5125
+2026-01-21 21:19:17.329 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-21 21:19:17.329 +02:00 [INF] Hosting environment: Development
+2026-01-21 21:19:17.329 +02:00 [INF] Content root path: C:\לימודים\יד\project api-angular\projectApiAngular1
+2026-01-21 21:19:17.847 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/index.html - null null
+2026-01-21 21:19:17.958 +02:00 [INF] Incoming Request: GET /swagger/index.html
+2026-01-21 21:19:18.002 +02:00 [INF] Completed GET /swagger/index.html responded 200 in 44ms
+2026-01-21 21:19:18.005 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/index.html - 200 null text/html;charset=utf-8 165.9712ms
+2026-01-21 21:19:18.008 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-21 21:19:18.013 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript; charset=utf-8 4.1725ms
+2026-01-21 21:19:18.023 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - null null
+2026-01-21 21:19:18.093 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.2548ms
+2026-01-21 21:19:18.117 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - null null
+2026-01-21 21:19:18.117 +02:00 [INF] Incoming Request: GET /swagger/v1/swagger.json
+2026-01-21 21:19:18.141 +02:00 [INF] Completed GET /swagger/v1/swagger.json responded 200 in 23ms
+2026-01-21 21:19:18.142 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.1134ms
+2026-01-21 21:21:50.135 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-21 21:21:50.477 +02:00 [INF] Now listening on: https://localhost:7097
+2026-01-21 21:21:50.478 +02:00 [INF] Now listening on: http://localhost:5125
+2026-01-21 21:21:50.656 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-21 21:21:50.657 +02:00 [INF] Hosting environment: Development
+2026-01-21 21:21:50.657 +02:00 [INF] Content root path: C:\לימודים\יד\project api-angular\projectApiAngular1
+2026-01-21 21:21:50.973 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/index.html - null null
+2026-01-21 21:21:51.221 +02:00 [INF] Incoming Request: GET /swagger/index.html
+2026-01-21 21:21:51.333 +02:00 [INF] Completed GET /swagger/index.html responded 200 in 115ms
+2026-01-21 21:21:51.339 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-21 21:21:51.340 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/index.html - 200 null text/html;charset=utf-8 385.9509ms
+2026-01-21 21:21:51.346 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript; charset=utf-8 7.083ms
+2026-01-21 21:21:51.351 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - null null
+2026-01-21 21:21:51.393 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.554ms
+2026-01-21 21:21:51.426 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - null null
+2026-01-21 21:21:51.426 +02:00 [INF] Incoming Request: GET /swagger/v1/swagger.json
+2026-01-21 21:21:51.457 +02:00 [INF] Completed GET /swagger/v1/swagger.json responded 200 in 30ms
+2026-01-21 21:21:51.457 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.2619ms

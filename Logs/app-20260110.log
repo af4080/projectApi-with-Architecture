@@ -1,0 +1,310 @@
+2026-01-10 22:37:35.585 +02:00 [INF] User profile is available. Using 'C:\Users\user1\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-01-10 22:37:37.585 +02:00 [INF] Now listening on: https://localhost:7097
+2026-01-10 22:37:37.586 +02:00 [INF] Now listening on: http://localhost:5125
+2026-01-10 22:37:38.225 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-10 22:37:38.226 +02:00 [INF] Hosting environment: Development
+2026-01-10 22:37:38.226 +02:00 [INF] Content root path: C:\Users\user1\Desktop\projectApiAngular1
+2026-01-10 22:37:38.756 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/index.html - null null
+2026-01-10 22:37:39.396 +02:00 [INF] Incoming Request: GET /swagger/index.html
+2026-01-10 22:37:39.546 +02:00 [INF] Completed GET /swagger/index.html responded 200 in 153ms
+2026-01-10 22:37:39.551 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/index.html - 200 null text/html;charset=utf-8 814.2817ms
+2026-01-10 22:37:39.558 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - null null
+2026-01-10 22:37:39.580 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7097/_vs/browserLink - null null
+2026-01-10 22:37:39.585 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_framework/aspnetcore-browser-refresh.js - 200 16519 application/javascript; charset=utf-8 26.7838ms
+2026-01-10 22:37:39.685 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7097/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.8814ms
+2026-01-10 22:37:39.708 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - null null
+2026-01-10 22:37:39.709 +02:00 [INF] Incoming Request: GET /swagger/v1/swagger.json
+2026-01-10 22:37:39.749 +02:00 [INF] Completed GET /swagger/v1/swagger.json responded 200 in 40ms
+2026-01-10 22:37:39.751 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7097/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.5285ms
+2026-01-10 22:37:53.030 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/register - null null
+2026-01-10 22:37:53.031 +02:00 [INF] Incoming Request: OPTIONS /api/auth/register
+2026-01-10 22:37:53.038 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:37:53.040 +02:00 [INF] Completed OPTIONS /api/auth/register responded 204 in 9ms
+2026-01-10 22:37:53.041 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/register - 204 null null 10.2526ms
+2026-01-10 22:37:53.044 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/register - application/json 92
+2026-01-10 22:37:53.044 +02:00 [INF] Incoming Request: POST /api/auth/register
+2026-01-10 22:37:53.045 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:37:53.234 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Register (projectApiAngular)'
+2026-01-10 22:37:53.272 +02:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(CreateUserDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 22:37:56.834 +02:00 [INF] Executed DbCommand (207ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 22:37:57.844 +02:00 [INF] Executed DbCommand (64ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 50), @p2='?' (Size = 70), @p3='?' (Size = 15), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Name], [Password], [Phone], [Role])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-01-10 22:37:57.908 +02:00 [INF] Executing OkObjectResult, writing value of type 'projectApiAngular.DTO.UserDto+ReadUserDto'.
+2026-01-10 22:37:57.920 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Register (projectApiAngular) in 4643.2025ms
+2026-01-10 22:37:57.921 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Register (projectApiAngular)'
+2026-01-10 22:37:57.923 +02:00 [INF] Completed POST /api/auth/register responded 200 in 4878ms
+2026-01-10 22:37:57.932 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/register - 200 null application/json; charset=utf-8 4889.0489ms
+2026-01-10 22:38:22.577 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/login - null null
+2026-01-10 22:38:22.578 +02:00 [INF] Incoming Request: OPTIONS /api/auth/login
+2026-01-10 22:38:22.578 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:38:22.579 +02:00 [INF] Completed OPTIONS /api/auth/login responded 204 in 1ms
+2026-01-10 22:38:22.579 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/login - 204 null null 1.9476ms
+2026-01-10 22:38:22.582 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 22:38:22.582 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 22:38:22.582 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:38:22.586 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 22:38:22.597 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 22:38:22.699 +02:00 [INF] Executed DbCommand (24ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 22:38:23.456 +02:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 22:38:23.464 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 866.6581ms
+2026-01-10 22:38:23.464 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 22:38:23.464 +02:00 [INF] Completed POST /api/auth/login responded 400 in 882ms
+2026-01-10 22:38:23.464 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 400 null application/json; charset=utf-8 882.8388ms
+2026-01-10 22:38:39.751 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/login - null null
+2026-01-10 22:38:39.752 +02:00 [INF] Incoming Request: OPTIONS /api/auth/login
+2026-01-10 22:38:39.752 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:38:39.752 +02:00 [INF] Completed OPTIONS /api/auth/login responded 204 in 0ms
+2026-01-10 22:38:39.752 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/login - 204 null null 1.2798ms
+2026-01-10 22:38:39.755 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 22:38:39.755 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 22:38:39.755 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:38:39.759 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 22:38:39.759 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 22:38:39.906 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 22:38:40.203 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 22:38:40.207 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 447.8334ms
+2026-01-10 22:38:40.207 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 22:38:40.207 +02:00 [INF] Completed POST /api/auth/login responded 200 in 452ms
+2026-01-10 22:38:40.208 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 200 null application/json; charset=utf-8 453.0014ms
+2026-01-10 22:52:20.132 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/login - null null
+2026-01-10 22:52:20.133 +02:00 [INF] Incoming Request: OPTIONS /api/auth/login
+2026-01-10 22:52:20.133 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:52:20.133 +02:00 [INF] Completed OPTIONS /api/auth/login responded 204 in 0ms
+2026-01-10 22:52:20.135 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/login - 204 null null 2.3263ms
+2026-01-10 22:52:20.154 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 22:52:20.183 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 22:52:20.183 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:52:20.183 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 22:52:20.183 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 22:52:20.275 +02:00 [INF] Executed DbCommand (30ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 22:52:20.657 +02:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 22:52:20.657 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 473.5395ms
+2026-01-10 22:52:20.657 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 22:52:20.657 +02:00 [INF] Completed POST /api/auth/login responded 400 in 477ms
+2026-01-10 22:52:20.658 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 400 null application/json; charset=utf-8 503.9308ms
+2026-01-10 22:53:27.545 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/login - null null
+2026-01-10 22:53:27.550 +02:00 [INF] Incoming Request: OPTIONS /api/auth/login
+2026-01-10 22:53:27.550 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:53:27.550 +02:00 [INF] Completed OPTIONS /api/auth/login responded 204 in 0ms
+2026-01-10 22:53:27.552 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/login - 204 null null 7.2406ms
+2026-01-10 22:53:27.564 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 22:53:27.565 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 22:53:27.565 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:53:27.565 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 22:53:27.566 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 22:53:27.584 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 22:53:27.955 +02:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 22:53:27.956 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 390.0219ms
+2026-01-10 22:53:27.956 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 22:53:27.956 +02:00 [INF] Completed POST /api/auth/login responded 400 in 391ms
+2026-01-10 22:53:27.956 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 400 null application/json; charset=utf-8 395.0083ms
+2026-01-10 22:53:43.289 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/login - null null
+2026-01-10 22:53:43.289 +02:00 [INF] Incoming Request: OPTIONS /api/auth/login
+2026-01-10 22:53:43.289 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:53:43.289 +02:00 [INF] Completed OPTIONS /api/auth/login responded 204 in 0ms
+2026-01-10 22:53:43.289 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/login - 204 null null 0.7922ms
+2026-01-10 22:53:43.292 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 22:53:43.292 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 22:53:43.292 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:53:43.292 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 22:53:43.292 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 22:53:43.309 +02:00 [INF] Executed DbCommand (14ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 22:53:43.671 +02:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 22:53:43.671 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 378.9114ms
+2026-01-10 22:53:43.671 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 22:53:43.671 +02:00 [INF] Completed POST /api/auth/login responded 400 in 379ms
+2026-01-10 22:53:43.671 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 400 null application/json; charset=utf-8 379.9435ms
+2026-01-10 22:54:18.674 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/login - null null
+2026-01-10 22:54:18.678 +02:00 [INF] Incoming Request: OPTIONS /api/auth/login
+2026-01-10 22:54:18.678 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:54:18.680 +02:00 [INF] Completed OPTIONS /api/auth/login responded 204 in 1ms
+2026-01-10 22:54:18.680 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/login - 204 null null 7.4538ms
+2026-01-10 22:54:18.687 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 22:54:18.687 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 22:54:18.687 +02:00 [INF] CORS policy execution successful.
+2026-01-10 22:54:18.687 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 22:54:18.687 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 22:54:18.691 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 22:54:18.950 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 22:54:18.950 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 262.3651ms
+2026-01-10 22:54:18.950 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 22:54:18.950 +02:00 [INF] Completed POST /api/auth/login responded 200 in 263ms
+2026-01-10 22:54:18.950 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 200 null application/json; charset=utf-8 263.5989ms
+2026-01-10 23:22:42.564 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/login - null null
+2026-01-10 23:22:42.564 +02:00 [INF] Incoming Request: OPTIONS /api/auth/login
+2026-01-10 23:22:42.565 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:22:42.565 +02:00 [INF] Completed OPTIONS /api/auth/login responded 204 in 0ms
+2026-01-10 23:22:42.565 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/login - 204 null null 1.3798ms
+2026-01-10 23:22:42.577 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 23:22:42.578 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 23:22:42.578 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:22:42.578 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:22:42.578 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 23:22:42.629 +02:00 [INF] Executed DbCommand (23ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 23:22:43.022 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 23:22:43.023 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 444.0962ms
+2026-01-10 23:22:43.023 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:22:43.023 +02:00 [INF] Completed POST /api/auth/login responded 200 in 444ms
+2026-01-10 23:22:43.023 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 200 null application/json; charset=utf-8 445.8639ms
+2026-01-10 23:30:14.708 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/login - null null
+2026-01-10 23:30:14.708 +02:00 [INF] Incoming Request: OPTIONS /api/auth/login
+2026-01-10 23:30:14.708 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:30:14.708 +02:00 [INF] Completed OPTIONS /api/auth/login responded 204 in 0ms
+2026-01-10 23:30:14.709 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/login - 204 null null 0.8458ms
+2026-01-10 23:30:14.768 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 23:30:14.786 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 23:30:14.786 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:30:14.786 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:30:14.786 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 23:30:14.857 +02:00 [INF] Executed DbCommand (26ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 23:30:15.334 +02:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 23:30:15.335 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 548.6536ms
+2026-01-10 23:30:15.335 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:30:15.335 +02:00 [INF] Completed POST /api/auth/login responded 400 in 549ms
+2026-01-10 23:30:15.335 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 400 null application/json; charset=utf-8 567.3359ms
+2026-01-10 23:30:16.544 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 23:30:16.544 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 23:30:16.544 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:30:16.544 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:30:16.545 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 23:30:16.549 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 23:30:16.894 +02:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 23:30:16.895 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 350.083ms
+2026-01-10 23:30:16.895 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:30:16.895 +02:00 [INF] Completed POST /api/auth/login responded 400 in 350ms
+2026-01-10 23:30:16.895 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 400 null application/json; charset=utf-8 351.0765ms
+2026-01-10 23:30:24.314 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/login - null null
+2026-01-10 23:30:24.314 +02:00 [INF] Incoming Request: OPTIONS /api/auth/login
+2026-01-10 23:30:24.315 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:30:24.315 +02:00 [INF] Completed OPTIONS /api/auth/login responded 204 in 0ms
+2026-01-10 23:30:24.315 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/login - 204 null null 0.9289ms
+2026-01-10 23:30:24.319 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 23:30:24.319 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 23:30:24.319 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:30:24.319 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:30:24.320 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 23:30:24.329 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 23:30:24.706 +02:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 23:30:24.706 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 386.3499ms
+2026-01-10 23:30:24.706 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:30:24.706 +02:00 [INF] Completed POST /api/auth/login responded 400 in 387ms
+2026-01-10 23:30:24.706 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 400 null application/json; charset=utf-8 387.8473ms
+2026-01-10 23:30:32.926 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/login - null null
+2026-01-10 23:30:32.932 +02:00 [INF] Incoming Request: OPTIONS /api/auth/login
+2026-01-10 23:30:32.932 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:30:32.932 +02:00 [INF] Completed OPTIONS /api/auth/login responded 204 in 0ms
+2026-01-10 23:30:32.933 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/login - 204 null null 6.3507ms
+2026-01-10 23:30:32.958 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 23:30:32.958 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 23:30:32.958 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:30:32.959 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:30:32.959 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 23:30:33.007 +02:00 [INF] Executed DbCommand (46ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 23:30:33.467 +02:00 [INF] Executing BadRequestObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 23:30:33.467 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 508.4035ms
+2026-01-10 23:30:33.467 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:30:33.467 +02:00 [INF] Completed POST /api/auth/login responded 400 in 509ms
+2026-01-10 23:30:33.467 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 400 null application/json; charset=utf-8 509.5343ms
+2026-01-10 23:30:41.765 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/login - null null
+2026-01-10 23:30:41.765 +02:00 [INF] Incoming Request: OPTIONS /api/auth/login
+2026-01-10 23:30:41.765 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:30:41.765 +02:00 [INF] Completed OPTIONS /api/auth/login responded 204 in 0ms
+2026-01-10 23:30:41.766 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/login - 204 null null 0.4944ms
+2026-01-10 23:30:41.768 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 23:30:41.768 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 23:30:41.768 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:30:41.768 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:30:41.768 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 23:30:41.783 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 23:30:42.101 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 23:30:42.101 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 332.6458ms
+2026-01-10 23:30:42.101 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:30:42.101 +02:00 [INF] Completed POST /api/auth/login responded 200 in 333ms
+2026-01-10 23:30:42.101 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 200 null application/json; charset=utf-8 334.5226ms
+2026-01-10 23:37:11.845 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/login - null null
+2026-01-10 23:37:11.846 +02:00 [INF] Incoming Request: OPTIONS /api/auth/login
+2026-01-10 23:37:11.846 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:37:11.849 +02:00 [INF] Completed OPTIONS /api/auth/login responded 204 in 3ms
+2026-01-10 23:37:11.849 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/login - 204 null null 4.5326ms
+2026-01-10 23:37:11.854 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/login - application/json 55
+2026-01-10 23:37:11.855 +02:00 [INF] Incoming Request: POST /api/auth/login
+2026-01-10 23:37:11.856 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:37:11.856 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:37:11.856 +02:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 23:37:11.925 +02:00 [INF] Executed DbCommand (31ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 23:37:12.227 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-01-10 23:37:12.228 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Login (projectApiAngular) in 371.68ms
+2026-01-10 23:37:12.228 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Login (projectApiAngular)'
+2026-01-10 23:37:12.228 +02:00 [INF] Completed POST /api/auth/login responded 200 in 372ms
+2026-01-10 23:37:12.228 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/login - 200 null application/json; charset=utf-8 374.7946ms
+2026-01-10 23:43:22.102 +02:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7097/api/auth/register - null null
+2026-01-10 23:43:22.103 +02:00 [INF] Incoming Request: OPTIONS /api/auth/register
+2026-01-10 23:43:22.103 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:43:22.103 +02:00 [INF] Completed OPTIONS /api/auth/register responded 204 in 0ms
+2026-01-10 23:43:22.103 +02:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7097/api/auth/register - 204 null null 0.9048ms
+2026-01-10 23:43:22.110 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7097/api/auth/register - application/json 89
+2026-01-10 23:43:22.114 +02:00 [INF] Incoming Request: POST /api/auth/register
+2026-01-10 23:43:22.114 +02:00 [INF] CORS policy execution successful.
+2026-01-10 23:43:22.116 +02:00 [INF] Executing endpoint 'projectApiAngular.Controllers.AuthController.Register (projectApiAngular)'
+2026-01-10 23:43:22.116 +02:00 [INF] Route matched with {action = "Register", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(CreateUserDto) on controller projectApiAngular.Controllers.AuthController (projectApiAngular).
+2026-01-10 23:43:22.180 +02:00 [INF] Executed DbCommand (34ms) [Parameters=[@__email_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Phone], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0
+2026-01-10 23:43:22.460 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 50), @p2='?' (Size = 70), @p3='?' (Size = 15), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Name], [Password], [Phone], [Role])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-01-10 23:43:22.461 +02:00 [INF] Executing OkObjectResult, writing value of type 'projectApiAngular.DTO.UserDto+ReadUserDto'.
+2026-01-10 23:43:22.462 +02:00 [INF] Executed action projectApiAngular.Controllers.AuthController.Register (projectApiAngular) in 342.9497ms
+2026-01-10 23:43:22.462 +02:00 [INF] Executed endpoint 'projectApiAngular.Controllers.AuthController.Register (projectApiAngular)'
+2026-01-10 23:43:22.462 +02:00 [INF] Completed POST /api/auth/register responded 200 in 347ms
+2026-01-10 23:43:22.462 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7097/api/auth/register - 200 null application/json; charset=utf-8 352.3623ms

@@ -1,0 +1,1085 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\kafkaproducerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\kafkaproducerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6478784-1DEA-4106-97CE-C50D078172DE}|..\\TestProject1\\TestProject1.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\testproject1\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user1\\AppData\\Local\\Temp\\CopilotBaseline\\7df6d7b1\\~docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\ilotteryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\ilotteryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\lotteryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\lotteryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6478784-1DEA-4106-97CE-C50D078172DE}|..\\TestProject1\\TestProject1.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\testproject1\\customapifactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6478784-1DEA-4106-97CE-C50D078172DE}|..\\TestProject1\\TestProject1.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\controllers\\lotterycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:controllers\\lotterycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\controllers\\purchesecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:controllers\\purchesecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\purcheseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\purcheseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\repositories\\giftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:repositories\\giftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\giftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\igiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\igiftservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\repositories\\donnerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:repositories\\donnerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\repositories\\igiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:repositories\\igiftrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:controllers\\giftcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\dto\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:dto\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\dto\\basketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:dto\\basketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\repositories\\purchaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:repositories\\purchaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\dto\\purchesedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:dto\\purchesedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:models\\purchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\repositories\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:repositories\\ibasketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\ibasketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\models\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:models\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\projectapiangular.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:projectapiangular.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\donnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\donnerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\data\\chinese_salesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:data\\chinese_salesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\ipurcheseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\ipurcheseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\dto\\giftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:dto\\giftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\configurations\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:configurations\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\validations\\strongpasswordattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:validations\\strongpasswordattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\controllers\\donnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:controllers\\donnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\dto\\donnerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:dto\\donnerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\repositories\\ipurchaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:repositories\\ipurchaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\models\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:models\\gift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\models\\maneger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:models\\maneger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\models\\donner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:models\\donner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|c:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-architecture\\repositories\\idonnerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6995FB89-1C5B-430B-B2B6-16D19EDAE999}|projectApiAngular.csproj|solutionrelative:repositories\\idonnerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KafkaProducerService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\KafkaProducerService.cs",
+              "RelativeDocumentMoniker": "Services\\KafkaProducerService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\KafkaProducerService.cs",
+              "RelativeToolTip": "Services\\KafkaProducerService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T19:09:13.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAACEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-23T13:38:07.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBZwBgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-05T09:03:29.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ILotteryService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\ILotteryService.cs",
+              "RelativeDocumentMoniker": "Services\\ILotteryService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\ILotteryService.cs",
+              "RelativeToolTip": "Services\\ILotteryService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T12:22:59.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\TestProject1\\Controllers\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\TestProject1\\Controllers\\AuthControllerTests.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\TestProject1\\Controllers\\AuthControllerTests.cs",
+              "RelativeToolTip": "..\\TestProject1\\Controllers\\AuthControllerTests.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:11:42.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GiftService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\GiftService.cs",
+              "RelativeDocumentMoniker": "Services\\GiftService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\GiftService.cs",
+              "RelativeToolTip": "Services\\GiftService.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAUwIwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T11:39:07.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GiftController.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\GiftController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GiftController.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\GiftController.cs",
+              "RelativeToolTip": "Controllers\\GiftController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAiwHQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T20:00:53.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAuwOAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T09:01:38.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T10:34:29.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-23T13:47:08.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "~docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\user1\\AppData\\Local\\Temp\\CopilotBaseline\\7df6d7b1\\~docker-compose.yml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\user1\\AppData\\Local\\Temp\\CopilotBaseline\\7df6d7b1\\~docker-compose.yml",
+              "ToolTip": "C:\\Users\\user1\\AppData\\Local\\Temp\\CopilotBaseline\\7df6d7b1\\~docker-compose.yml",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\user1\\AppData\\Local\\Temp\\CopilotBaseline\\7df6d7b1\\~docker-compose.yml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-04-23T13:45:25.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomApiFactory.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\TestProject1\\CustomApiFactory.cs",
+              "RelativeDocumentMoniker": "..\\TestProject1\\CustomApiFactory.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\TestProject1\\CustomApiFactory.cs",
+              "RelativeToolTip": "..\\TestProject1\\CustomApiFactory.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T12:01:48.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LotteryService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\LotteryService.cs",
+              "RelativeDocumentMoniker": "Services\\LotteryService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\LotteryService.cs",
+              "RelativeToolTip": "Services\\LotteryService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T19:16:30.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GiftRepository.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\GiftRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\GiftRepository.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\GiftRepository.cs",
+              "RelativeToolTip": "Repositories\\GiftRepository.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAADwv2IAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T10:28:37.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LotteryController.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\LotteryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LotteryController.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\LotteryController.cs",
+              "RelativeToolTip": "Controllers\\LotteryController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwCwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T17:06:43.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\TestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\TestProject1\\UnitTest1.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\TestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "..\\TestProject1\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T09:55:17.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "DTO\\UserDto.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\UserDto.cs",
+              "RelativeToolTip": "DTO\\UserDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T16:57:55.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DonnerRepository.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\DonnerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\DonnerRepository.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\DonnerRepository.cs",
+              "RelativeToolTip": "Repositories\\DonnerRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwCUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:22:54.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T17:03:27.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BasketService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\BasketService.cs",
+              "RelativeDocumentMoniker": "Services\\BasketService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\BasketService.cs",
+              "RelativeToolTip": "Services\\BasketService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwGkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T16:54:26.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PurcheseService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\PurcheseService.cs",
+              "RelativeDocumentMoniker": "Services\\PurcheseService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\PurcheseService.cs",
+              "RelativeToolTip": "Services\\PurcheseService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:46:26.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PurcheseController.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\PurcheseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PurcheseController.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\PurcheseController.cs",
+              "RelativeToolTip": "Controllers\\PurcheseController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:13:53.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IGiftService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\IGiftService.cs",
+              "RelativeDocumentMoniker": "Services\\IGiftService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\IGiftService.cs",
+              "RelativeToolTip": "Services\\IGiftService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:20:44.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IBasketRepository.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\IBasketRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IBasketRepository.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\IBasketRepository.cs",
+              "RelativeToolTip": "Repositories\\IBasketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T16:06:11.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IGiftRepository.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\IGiftRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IGiftRepository.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\IGiftRepository.cs",
+              "RelativeToolTip": "Repositories\\IGiftRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T14:16:23.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PurchaseRepository.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\PurchaseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PurchaseRepository.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\PurchaseRepository.cs",
+              "RelativeToolTip": "Repositories\\PurchaseRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T16:48:55.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PagedResponse.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\PagedResponse.cs",
+              "RelativeDocumentMoniker": "DTO\\PagedResponse.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\PagedResponse.cs",
+              "RelativeToolTip": "DTO\\PagedResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T14:10:53.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IBasketService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\IBasketService.cs",
+              "RelativeDocumentMoniker": "Services\\IBasketService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\IBasketService.cs",
+              "RelativeToolTip": "Services\\IBasketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T21:23:38.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Purchase.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\Purchase.cs",
+              "RelativeDocumentMoniker": "Models\\Purchase.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\Purchase.cs",
+              "RelativeToolTip": "Models\\Purchase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:04:58.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PurcheseDto.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\PurcheseDto.cs",
+              "RelativeDocumentMoniker": "DTO\\PurcheseDto.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\PurcheseDto.cs",
+              "RelativeToolTip": "DTO\\PurcheseDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:49:28.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T10:21:46.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BasketDto.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\BasketDto.cs",
+              "RelativeDocumentMoniker": "DTO\\BasketDto.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\BasketDto.cs",
+              "RelativeToolTip": "DTO\\BasketDto.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T16:47:31.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BasketRepository.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\BasketRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BasketRepository.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\BasketRepository.cs",
+              "RelativeToolTip": "Repositories\\BasketRepository.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAQwEQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:54:56.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BasketController.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\BasketController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BasketController.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\BasketController.cs",
+              "RelativeToolTip": "Controllers\\BasketController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwGQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-31T21:16:05.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Basket.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\Basket.cs",
+              "RelativeDocumentMoniker": "Models\\Basket.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\Basket.cs",
+              "RelativeToolTip": "Models\\Basket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:50:19.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwBUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T16:56:45.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DonnerService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\DonnerService.cs",
+              "RelativeDocumentMoniker": "Services\\DonnerService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\DonnerService.cs",
+              "RelativeToolTip": "Services\\DonnerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:44:59.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "projectApiAngular.http",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\projectApiAngular.http",
+              "RelativeDocumentMoniker": "projectApiAngular.http",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\projectApiAngular.http",
+              "RelativeToolTip": "projectApiAngular.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-28T19:58:30.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T17:19:49.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T19:32:13.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Chinese_SalesDbContext.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Data\\Chinese_SalesDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\Chinese_SalesDbContext.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Data\\Chinese_SalesDbContext.cs",
+              "RelativeToolTip": "Data\\Chinese_SalesDbContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwBAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:04:23.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T16:48:10.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-18T13:42:26.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T17:56:30.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\IUserService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\IUserService.cs",
+              "RelativeToolTip": "Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T21:18:58.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IPurcheseService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\IPurcheseService.cs",
+              "RelativeDocumentMoniker": "Services\\IPurcheseService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\IPurcheseService.cs",
+              "RelativeToolTip": "Services\\IPurcheseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:09:14.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GiftDto.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\GiftDto.cs",
+              "RelativeDocumentMoniker": "DTO\\GiftDto.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\GiftDto.cs",
+              "RelativeToolTip": "DTO\\GiftDto.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:52:03.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "DTO\\CategoryDto.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\CategoryDto.cs",
+              "RelativeToolTip": "DTO\\CategoryDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T17:21:02.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:30:32.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Configurations\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Configurations\\JwtSettings.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Configurations\\JwtSettings.cs",
+              "RelativeToolTip": "Configurations\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T15:52:35.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "StrongPasswordAttribute.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Validations\\StrongPasswordAttribute.cs",
+              "RelativeDocumentMoniker": "Validations\\StrongPasswordAttribute.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Validations\\StrongPasswordAttribute.cs",
+              "RelativeToolTip": "Validations\\StrongPasswordAttribute.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T18:24:43.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswC8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T16:55:04.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DonnerController.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\DonnerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DonnerController.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\DonnerController.cs",
+              "RelativeToolTip": "Controllers\\DonnerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T13:03:58.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Services\\ITokenService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\ITokenService.cs",
+              "RelativeToolTip": "Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T17:32:22.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\ICategoryService.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:43:08.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DonnerDto.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\DonnerDto.cs",
+              "RelativeDocumentMoniker": "DTO\\DonnerDto.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\DTO\\DonnerDto.cs",
+              "RelativeToolTip": "DTO\\DonnerDto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T13:08:12.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T17:26:23.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "IPurchaseRepository.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\IPurchaseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IPurchaseRepository.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\IPurchaseRepository.cs",
+              "RelativeToolTip": "Repositories\\IPurchaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:02:03.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwD0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T09:08:30.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Gift.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\Gift.cs",
+              "RelativeDocumentMoniker": "Models\\Gift.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\Gift.cs",
+              "RelativeToolTip": "Models\\Gift.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:23:11.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Maneger.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\Maneger.cs",
+              "RelativeDocumentMoniker": "Models\\Maneger.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\Maneger.cs",
+              "RelativeToolTip": "Models\\Maneger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T12:33:46.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Donner.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\Donner.cs",
+              "RelativeDocumentMoniker": "Models\\Donner.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Models\\Donner.cs",
+              "RelativeToolTip": "Models\\Donner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T11:20:36.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IDonnerRepository.cs",
+              "DocumentMoniker": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\IDonnerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IDonnerRepository.cs",
+              "ToolTip": "C:\\\u05DC\u05D9\u05DE\u05D5\u05D3\u05D9\u05DD\\\u05D9\u05D3\\project api-angular\\project-wiith-Architecture\\Repositories\\IDonnerRepository.cs",
+              "RelativeToolTip": "Repositories\\IDonnerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:50:14.307Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
